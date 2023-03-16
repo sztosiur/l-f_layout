@@ -1,0 +1,35 @@
+/*Import Fontów*/
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk&family=Playfair+Display:ital,wght@0,500;1,500&display=swap');
+
+:root
+{
+    /*Kolory*/
+    --clr-bg: #F0EBE1;
+    --clr-h: #928B7D;
+    --clr-text: #A79F8E;
+    
+    /*Typografia*/
+    --fw-p: 400;
+    --fw-h:500;
+    --ff-h: 'Playfair Display', serif;
+    --ff-p: 'Hanken Grotesk', sans-serif;
+
+    font-size:62.5%;
+    
+
+}
+
+body{
+    background: var(--clr-bg);
+}
+
+/*TYPOGRAFIA*/
+h1,h2,h3,h4{
+    font-family: var(--ff-h);
+    font-weight: var(--fw-h);
+    color:var(--clr-h);
+}
+.nag1{
+    font-size: 5.8rem;
+    line-height: 7.3rem;
+}
