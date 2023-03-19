@@ -22,6 +22,13 @@
 body{
     background: var(--clr-bg);
 }
+/*MAKSMALNA SZEROKOŚĆ CONTENTU*/
+.product__card--custom{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+
 
 /*TYPOGRAFIA*/
 h1,h2,h3,h4{
@@ -32,4 +39,54 @@ h1,h2,h3,h4{
 .nag1{
     font-size: 5.8rem;
     line-height: 7.3rem;
+}
+.right{
+    text-align: right;
+}
+
+/*IMAGES*/
+
+.product__card--custom img{
+    max-width: 100%;
+    
+}
+.section__photo{
+    max-height:fit-content;
+    position:relative;
+}
+
+/*BG-IMAGES*/
+.bg__lf{
+    position: absolute;
+    z-index: -1;
+}
+
+.bg__lf--big{
+    top:-100%;
+    rotate: 75deg;
+    height:2000px;
+}
+.bg__lf--big2{
+    scale:1.5;
+}
+
+/*ZDJĘCIA KOLORÓW*/
+.kolor img{
+    max-height:10rem;
+}
+
+
+
+.grid__group{
+    display:grid;
+    min-height:50vh;
+    position:relative;
+    
+}
+
+.colors__flex{
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    
 }
